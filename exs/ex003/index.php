@@ -31,7 +31,19 @@
             }
         }
         $p = new Pessoa("Lucas");
-        var_dump($p);;
+        var_dump($p);
+        echo "<br>";
+
+        $nowDoc = "HereDoc";
+        echo <<< TEXTO
+            Isso é um texto $nowDoc
+        TEXTO;
+        echo "<br>";
+        
+        echo <<< 'TEXTO'
+            Isso é um texto $nowDoc
+        TEXTO;
+        echo "<br>";
     ?>
 </body>
 </html>
