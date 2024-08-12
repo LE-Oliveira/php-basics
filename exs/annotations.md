@@ -5,9 +5,14 @@
 
 ### Superglobals
  - $_GET
- - $_POST
+ - $_POST 
  - $_COOKIES
  - $_REQUEST -> is the junction of the above
+ - $_FILES
+ - $_SESSION
+ - $_ENV
+ - $_SERVER
+ - $GLOBALS 
 
 ### Resourceful Arithmetic Functions
  - abs()
